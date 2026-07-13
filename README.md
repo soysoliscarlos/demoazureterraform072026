@@ -1,0 +1,1 @@
+# demoazureterraform072026
