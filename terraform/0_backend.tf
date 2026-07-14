@@ -2,8 +2,8 @@ terraform {
   required_version = ">= 1.15.0"
 
   backend "azurerm" {
-    resource_group_name  = ""
-    storage_account_name = ""
+    resource_group_name  = "rg-utpdavid2026-GEN-3p"
+    storage_account_name = "stgutpdavid2026gen3p"
     container_name       = "tfstate-user1"
     key                  = "terraform.tfstate"
     use_azuread_auth     = true
